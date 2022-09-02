@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles.css">
+  <title>Registrar Mascota</title>
+  <link rel="icon" href="Imagenes/Mascota-Feliz.png">
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <img src="Imagenes/Mascota-Feliz.png" alt="logo Mascota Feliz">
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">servicios</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="forma-registro">
+    <h4>Formulario de Registro para Mascotas</h4>
+    <input class="controls" type="text" name="nombre-mascota" id="nombre-mascota" placeholder="Nombre de la mascota">
+    <input class="controls" type="text" name="especie-mascota" id="especie-mascota" placeholder="Especie">
+    <input class="controls" type="text" name="raza-mascota" id="raza-mascota" placeholder="Raza">
+    <input class="controls" type="number" name="edad-mascota" id="edad-mascota" placeholder="Edad">
+    <input class="controls" type="datetime-local" name="fecha-consulta" id="fecha-consulta" placeholder="Fecha de Registro">
+    <p>Sexo:</p>
+    <div class="sexo">
+      <label for="macho">
+        <input id="macho" type="radio" name="genero" value="macho">Macho
+      </label>
+      <label for="hembra">
+        <input  id="hembra" type="radio" name="genero" value="hembra">Hembra
+      </label>
+    </div>
+    <textarea class="controls" name="textarea" rows="5" cols="50">Recomendaciones</textarea>
+    <input  class="boton" type="submit" value="Registrar"> 
+
+  </section>
+</body>
+</html>

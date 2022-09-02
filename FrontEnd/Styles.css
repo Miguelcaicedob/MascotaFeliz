@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('Imagenes/fondo.jpg');
+  background-size: 100% 100%;
+}
+
+header{
+  background-color:#f6f7f6 ;
+  width: 100%;
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.menu{
+  width: 900px;
+  margin: 0 auto;
+}
+
+img{
+  width: 160px;
+  height: 140px;
+  float: left;
+  padding: 2px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li{
+  list-style: none;
+  margin-left: 75px;
+  padding: 25px 0;
+  padding-top: 45px ;
+  float: left;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: large;
+  font-weight: bold;
+  font-family: calibri;
+}
+
+
+.forma-registro{
+
+  width: 500px ;
+  background: #f6f7f6;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  font-family: calibri;
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.controls{
+  width: 100%;
+  background-color: #f6f7f6 ;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid ;
+  font-family: calibri;
+  font-size: 16px;
+}
+
+.forma-registro p {
+  height: 5px;
+  text-align: justify;
+  font-family: calibri;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.forma-registro h4{
+  height: 40px;
+  text-align: center;
+  font-family: calibri;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+.forma-registro .boton{
+  width: 100%;
+  background: #8c5dfb;
+  border: none;
+  padding: 12px;
+  color: black;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+  border-radius: 4px;
+
+}
+.sexo{
+  text-align: center;
+  padding: 20px;
+}
+
+#macho{
+  margin-right: 15px;
+  
+  
+}
+#hembra{
+  margin-left: 15px;
+  margin-right: 15px;
+}
